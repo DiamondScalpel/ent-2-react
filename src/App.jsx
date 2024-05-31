@@ -41,7 +41,7 @@ function App() {
         .finally(() => {
           setTimeout(() => {
             setIsLoading(false);
-          }, 1000);
+          }, 550);
         });
     }
   }, [coords]);
